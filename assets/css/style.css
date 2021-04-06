@@ -1,0 +1,19 @@
+/* Seletor universal */
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Zerar as margens */
+body{
+    margin: 0;
+}
+
+/* Configurações do header */
+header{
+    min-height: 500px;
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat; /* Para a imagem não repetir */
+    background-size: cover; /* Cobrir toda a área do header com a imagem */
+    background-position: bottom;
+}
