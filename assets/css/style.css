@@ -45,23 +45,23 @@ header #logo{
 }
 
 /* Configurações tamanho */
-header #menu{
+.menu{
     flex: 1;
 }
 
-header #menu ul{
+.menu ul{
     display: flex; 
     justify-content: flex-end;
     list-style: none;
     padding: 0;
 }
 
-header #menu li{
+.menu li{
     min-width: 100px;
     line-height: 28px;
 }
 
-header #menu a{
+.menu a{
     color: #FFF;
     text-decoration: none;
     font-weight: bold;
@@ -116,6 +116,7 @@ header #menu a{
 }
 /* Final formatação formulário */
 
+/* Section configs */
 .container{
     max-width: 960px;
     margin: auto;
@@ -132,4 +133,23 @@ header #menu a{
 
 .home p{
     text-align: justify;
+}
+
+/* Footer configs */
+footer{
+    background-color: #F5F5F5;
+    color: #6C757D;
+    font-size: .8em;
+}
+
+footer p{
+    line-height: 35px;
+}
+
+footer .container{
+    display: flex;
+}
+
+footer .menu a{
+    color: #6C757D;
 }
